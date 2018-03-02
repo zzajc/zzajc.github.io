@@ -15,7 +15,10 @@ C:\Users\Jiri\Documents\WindowsPowershell\Microsoft.Powershell_profile.ps1
 ```
 
 The code that I needed can be found on 
-[stackoverflow](https://stackoverflow.com/a/23932713/2128557).
+[stackoverflow](https://stackoverflow.com/a/23932713/2128557)
+
+To remove duplicates i tweaked the previous code by suggestion from
+[another stackoverflow](https://stackoverflow.com/a/1439174/2128557)
 
 To enable arrows to work with history a plugin is needed for Powershell version 4 and below. Windows 10 already contains this plugin.
 [PSReadLine](https://github.com/lzybkr/PSReadLine)
@@ -41,9 +44,9 @@ $historyPath = Join-Path (split-path $profile) history.clixml
 # This module adds support for up/down arrow for browsing history and other usefull stuff
 Import-Module PSReadLine
 
-# Hook Powershell's exiting event & hide the registration with -supportevent (from nivot.org)
+# Hook Powershell's exiting event & hide the registration with -supportevent (from nivot.org) & remove duplicates (from Keith Hill)
 Register-EngineEvent -SourceIdentifier powershell.exiting -SupportEvent -Action {
-      Get-History | Export-Clixml $historyPath
+    Get-History -Count $MaximumHistoryCount | Group CommandLine | Foreach {$_.Group[0]} | Export-Clixml $historyPath
 }.GetNewClosure()
 
 # Load previous history, if it exists
