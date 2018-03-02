@@ -2,12 +2,13 @@
 layout: default
 title: Jiri Hanousek's place to share ideas
 ---
-<div class="blurb">
-    <h1>Hello there</h1>
-    <p>this is my first jekyll testing index</p>
-    <ul>
-    {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
-</div><!-- /.blurb -->
+<ul>
+{% for post in site.posts %}
+    <li>
+        <h2>
+            <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        </h2>
+        <span>{{ post.date | date_to_string }}</span>
+    </li>
+{% endfor %}
+</ul>
