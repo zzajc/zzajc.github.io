@@ -5,10 +5,10 @@ title: Jiri Hanousek's place to share ideas
 <ul>
 {% for post in site.posts %}
     <li>
+        <span>{{ post.date | date_to_string }}</span>
         <h2>
             <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
         </h2>
-        <span>{{ post.date | date_to_string }}</span>
     </li>
 {% endfor %}
 </ul>
