@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Place to share my ideas
 name: Jiri Hanousek
+autor: Jiri Hanousek
 email: hanoujir@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Programming tips, tricks, hacks and links to great resources
