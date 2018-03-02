@@ -28,14 +28,14 @@ Before installing the PSReadLine plugin a package manager needs to be installed 
 
 Finally install the plugin from Powershell with admin rights by
 
-```
+```powershell
 Install-Module PSReadLine
 ```
 
 
 After merging all sources the final profile file contents are as following:
 
-```
+```powershell
 ######### Persistent History ############
 # Save last 200 history items on exit
 $MaximumHistoryCount = 2000
