@@ -27,6 +27,13 @@ This helps to make the code readable and more developer style independent. I got
 
 *Note that as Java developer I am used to write semicolons and other unnecessary stuff that pure groovy programmer can cause their eyes to bleed, sorry for that.*
 
+Running the code against Netbeans source code default branch (2017-10-17) gives:
+
+rows: 5 662 413 
+
+words 18 302 123
+
+
 ```groovy
 //call by
 countLines("D:/WORK/ProjectX")
