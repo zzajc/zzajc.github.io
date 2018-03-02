@@ -2,6 +2,8 @@
 layout: post
 title: "Jiri Hanousek's place to share ideas: Site Launched"
 date: 2018-03-02
+tags: initial
+author: Jiri Hanousek
 ---
 
 Dear reader, thank you for visiting my blog. This is my very first message that I used to initialize my blog.

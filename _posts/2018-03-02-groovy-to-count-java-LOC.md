@@ -2,6 +2,8 @@
 layout: post
 title: "How I used groovy to count java line of code"
 date: 2018-03-02
+tags: java groovy LOC
+author: Jiri Hanousek
 ---
 LOC is a code metric which helps me to estimate how large the project is. 
 It does not say anything about how much the code does but at least gives some sense of project size.

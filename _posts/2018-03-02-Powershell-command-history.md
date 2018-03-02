@@ -2,6 +2,8 @@
 layout: post
 title: "Powershell command persistent history"
 date: 2018-03-02
+tags: powershell
+author: Jiri Hanousek
 ---
 I Always forget commands that I write to Powershell once upon a time.
 
