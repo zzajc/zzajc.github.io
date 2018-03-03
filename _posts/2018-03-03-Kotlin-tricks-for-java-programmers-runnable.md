@@ -7,7 +7,7 @@ author: Jiri Hanousek
 ---
 
 When you begin learning a new programming language you are always strongly influenced by languages you already know
-and transitioning yout mindset to idiomatic use of new language takes some time. I prefer doing things dirty-style
+and transitioning your mindset to idiomatic use of new language takes some time. I prefer doing things dirty-style
 so I am not frozen too long on one thing. Moving forward keeps me motivated and I can always return and clean the filth.
 
 
@@ -29,7 +29,7 @@ Platform.runLater({
 This will fail if you want to store the runnable in variable. The inference mechanism fails to infer
 Runnable because adding tab into JavaFx TabPane has a return value of type Boolean (instead of void)
 
-```
+```kotlin
 var loader: Runnable
 
 //this fails
