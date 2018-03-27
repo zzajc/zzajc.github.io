@@ -13,5 +13,5 @@ Docker comes to rescue! You can stay comfortably in Windows and invite Linux to 
 
 I simply modified pytorch [docker file from their github](https://github.com/pytorch/pytorch/blob/master/docker/pytorch/Dockerfile)
 
-Use [my version](https://github.com/zzajc/zzajc.github.io/src/docker-pytorch-cpu/Dockerfile) to speed up your beginner phase and modify later.
+Use [my version](https://github.com/zzajc/zzajc.github.io/blob/master/src/docker-pytorch-cpu/Dockerfile) to speed up your beginner phase and modify later.
 
