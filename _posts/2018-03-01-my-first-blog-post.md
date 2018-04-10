@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jiri Hanousek's place to share ideas: Site Launched"
-date: 2018-03-02
+date: 2018-03-01
 tags: initial
 author: Jiri Hanousek
 ---
