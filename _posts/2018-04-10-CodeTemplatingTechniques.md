@@ -9,10 +9,10 @@ When writing a lot of boiler plate code I eventually come up with some generativ
 I use several techniques with several tools.
 
 # COPY-PASTE
-This is the most dangerous method. If you forget to replace something in pasted code than it may be valid code
+This is the simplest but the most dangerous method. If you forget to replace something in pasted code than it may be valid code
 and the compiler won't help you with finding stupid errors. I made many of these mistakes when I was tired.
 Copies are very similar and one simply overlooks that some varible was not changed. It is also very tedious. 
-Do not do this except for instances when thee compiler can help you (e.g. variable already exists error).
+Do not do this except for instances when the compiler can help you (e.g. variable already exists error).
 
 # Regexp replace
 Regular expressions are useful when generating code from some text or even from code. This technique can be used when the
@@ -30,7 +30,7 @@ The process is iterative and consists of several steps
   - Replace multiple whitespaces with single whitespace
 - Decorate = Make the information to be part of repetitive statement
   - put constant text like "public static void "
-  - surround with parentheses like characters () [] \{\} " " '' 
+  - surround with parentheses like characters () [] \{\} " " ' ' 
 
 # IDE templating capabilities
 This method is the fastest available because you don't need to leave the editor and you don't need to even go to any menu.
