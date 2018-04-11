@@ -6,7 +6,8 @@ tags: groovy code template regexp generate programming
 author: Jiri Hanousek
 ---
 When writing a lot of boiler plate code I eventually come up with some generative method to create code. For this task 
-I use several techniques with several tools.
+I use several techniques with several tools. In this post I am going to briefly describe methods that I use
+when programming on windows. 
 
 # COPY-PASTE
 This is the simplest but the most dangerous method. If you forget to replace something in pasted code than it may be valid code
